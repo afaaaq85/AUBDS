@@ -1,4 +1,4 @@
 # To run this website online:
 
-https://afaqxd.github.io/aubds-react/
+https://afaqxd.github.io/aubds-website
 
