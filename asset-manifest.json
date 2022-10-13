@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aubds-website/static/css/main.6d638352.css",
+    "main.css": "/aubds-website/static/css/main.5f6b5393.css",
     "main.js": "/aubds-website/static/js/main.6b31a27f.js",
     "static/media/Hassan_graphicshead.jpg": "/aubds-website/static/media/Hassan_graphicshead.f9e85895b72c378f814d.jpg",
     "static/media/title-image.png": "/aubds-website/static/media/title-image.7a3106b766d35db262ae.png",
@@ -44,11 +44,11 @@
     "static/media/saeybaan1.jpg": "/aubds-website/static/media/saeybaan1.ac9cff0b243bff92f02c.jpg",
     "static/media/QuateAkhwat.jpg": "/aubds-website/static/media/QuateAkhwat.9bed545635d61f1489d6.jpg",
     "index.html": "/aubds-website/index.html",
-    "main.6d638352.css.map": "/aubds-website/static/css/main.6d638352.css.map",
+    "main.5f6b5393.css.map": "/aubds-website/static/css/main.5f6b5393.css.map",
     "main.6b31a27f.js.map": "/aubds-website/static/js/main.6b31a27f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d638352.css",
+    "static/css/main.5f6b5393.css",
     "static/js/main.6b31a27f.js"
   ]
 }
