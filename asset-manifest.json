@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aubds-website/static/css/main.ec26913a.css",
-    "main.js": "/aubds-website/static/js/main.a60607f5.js",
+    "main.css": "/aubds-website/static/css/main.6d638352.css",
+    "main.js": "/aubds-website/static/js/main.9cd5b3c3.js",
     "static/media/Hassan_graphicshead.jpg": "/aubds-website/static/media/Hassan_graphicshead.f9e85895b72c378f814d.jpg",
     "static/media/title-image.png": "/aubds-website/static/media/title-image.7a3106b766d35db262ae.png",
     "static/media/RaniaHameed_DirectorDocumentation.png": "/aubds-website/static/media/RaniaHameed_DirectorDocumentation.b7b5b36a8626417b8dc4.png",
@@ -17,6 +17,7 @@
     "static/media/SaifurRehman_DirectorITAndMultimedia.jpg": "/aubds-website/static/media/SaifurRehman_DirectorITAndMultimedia.07e2c60ff19c4fcaf867.jpg",
     "static/media/RajaAbdullah_LiasonAndMarketingHead.jpg": "/aubds-website/static/media/RajaAbdullah_LiasonAndMarketingHead.fd588dfd1b7003141d02.jpg",
     "static/media/SohaibAhmed_DonorGroupHead.jpg": "/aubds-website/static/media/SohaibAhmed_DonorGroupHead.c24c0917816daaf31864.jpg",
+    "static/media/qalbesaleem3.jpg": "/aubds-website/static/media/qalbesaleem3.4c10f34335f6015c9356.jpg",
     "static/media/fontawesome-webfont.eot": "/aubds-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/aubds-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/nav-logo.png": "/aubds-website/static/media/nav-logo.b1e2e1afd4c625b09912.png",
@@ -24,8 +25,11 @@
     "static/media/AliRaza_GeneralSecretary.jpg": "/aubds-website/static/media/AliRaza_GeneralSecretary.c0f20b2f90ed1746a3a3.jpg",
     "static/media/Shafaq_hostinglead.jpg": "/aubds-website/static/media/Shafaq_hostinglead.09e464523dc08f8e31fa.jpg",
     "static/media/SanaRizvi_VicePresident.jpg": "/aubds-website/static/media/SanaRizvi_VicePresident.8bf53a093c8f6532f506.jpg",
+    "static/media/qalbesaleem4.jpg": "/aubds-website/static/media/qalbesaleem4.0d9a0d44bf4ae86fa424.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/aubds-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/events.jpg": "/aubds-website/static/media/events.dbdd3710e4314bb9be3a.jpg",
     "static/media/qalbesaleem8.jpg": "/aubds-website/static/media/qalbesaleem8.5a364e2cec91f4c9c221.jpg",
+    "static/media/qalbesaleem2.jpg": "/aubds-website/static/media/qalbesaleem2.02aff268c78ace4a4d3d.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/aubds-website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/UmarUsmanKhan_MaleEventLead.jpeg": "/aubds-website/static/media/UmarUsmanKhan_MaleEventLead.7b6cebe50df1addba82b.jpeg",
     "static/media/footer.jpg": "/aubds-website/static/media/footer.42e22a9521744b580677.jpg",
@@ -33,16 +37,18 @@
     "static/media/qalbesaleem6.jpg": "/aubds-website/static/media/qalbesaleem6.91a5effa6ea7efafe30e.jpg",
     "static/media/donate-money.png": "/aubds-website/static/media/donate-money.226ca44f8f39fa0a67d6.png",
     "static/media/qalbesaleem7.jpg": "/aubds-website/static/media/qalbesaleem7.dbd248113667afb0744b.jpg",
+    "static/media/saeybaan2.jpg": "/aubds-website/static/media/saeybaan2.b78154caedc44b605541.jpg",
     "static/media/qalbesaleem5.jpg": "/aubds-website/static/media/qalbesaleem5.2f2d9b8f451a61c4607b.jpg",
     "static/media/blood-donation.png": "/aubds-website/static/media/blood-donation.3da223244056b88010b1.png",
     "static/media/blood-request.png": "/aubds-website/static/media/blood-request.fc71c32207c90b8e6096.png",
+    "static/media/saeybaan1.jpg": "/aubds-website/static/media/saeybaan1.ac9cff0b243bff92f02c.jpg",
     "static/media/QuateAkhwat.jpg": "/aubds-website/static/media/QuateAkhwat.9bed545635d61f1489d6.jpg",
     "index.html": "/aubds-website/index.html",
-    "main.ec26913a.css.map": "/aubds-website/static/css/main.ec26913a.css.map",
-    "main.a60607f5.js.map": "/aubds-website/static/js/main.a60607f5.js.map"
+    "main.6d638352.css.map": "/aubds-website/static/css/main.6d638352.css.map",
+    "main.9cd5b3c3.js.map": "/aubds-website/static/js/main.9cd5b3c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec26913a.css",
-    "static/js/main.a60607f5.js"
+    "static/css/main.6d638352.css",
+    "static/js/main.9cd5b3c3.js"
   ]
 }
