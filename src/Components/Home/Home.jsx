@@ -1,6 +1,9 @@
-import React  from 'react'
+import React, { useState } from 'react'
 import './HomeStyles.css'
+import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
 import 'bootstrap/dist/css/bootstrap.css';
+import Footer from './../Footer/Footer';
 import titleImage from "../../images/title-image.png"
 import mentorImage from "../../images/hierarchy/HassanIqbal_mentor.png"
 import presidentImage from "../../images/hierarchy/TayyaburRehman_president.jpg"
@@ -12,10 +15,13 @@ import donateMoneyImage from "../../images/action/donate-money.png"
 import QalbeSaleem8 from "../../images/events/qalbesaleem8.jpg"
 import QalbeSaleem7 from "../../images/events/qalbesaleem7.jpg"
 import QuateAkhwat from "../../images/events/QuateAkhwat.jpg"
-import navLogo from "../../images/nav-logo.png"
 import Carousel from 'react-bootstrap/Carousel';
 
+
 const Home = () => {
+
+    const [counterON, setCounterON] = useState(false);
+
     return (
         <>
             <section class="white-section" id="title">
@@ -186,6 +192,7 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Our achievements */}
             <section class="black-section" id="achievement">
                 <div class="achievements">
                     <h5>We Help People</h5>
@@ -200,7 +207,12 @@ const Home = () => {
                     <div>
                         <i class="bi bi-patch-check icon"></i>
                         <div class="counter-box">
-                            <div class="counter" data-target="10">0</div>
+                            <ScrollTrigger onEnter={() => setCounterON(true)} onExit={() => setCounterON(false)} >
+                                <div class="counter" data-target="10">
+                                    {counterON && <CountUp start={0} end={7} duration={1} />}
+                                </div>
+
+                            </ScrollTrigger>
                             <div class="plus">
                                 <i class="fa-solid fa-plus fa-lg"></i>
                             </div>
@@ -211,7 +223,12 @@ const Home = () => {
                     <div>
                         <i class="bi bi-people icon"></i>
                         <div class="counter-box">
-                            <div class="counter" data-target="50">0</div>
+                            <ScrollTrigger OnEnter={() => setCounterON(true)} OnExit={() => setCounterON(false)}>
+                                <div class="counter" data-target="10">
+                                    {counterON && <CountUp start={0} end={110} duration={1} />}
+                                </div>
+
+                            </ScrollTrigger>
                             <div class="plus">
                                 <i class="fa-solid fa-plus fa-lg"></i>
                             </div>
@@ -222,7 +239,12 @@ const Home = () => {
                     <div>
                         <i class="bi bi-bag-plus icon"></i>
                         <div class="counter-box">
-                            <div class="counter" data-target="1000">0</div>
+                            <ScrollTrigger onEnter={() => setCounterON(true)} onExit={() => setCounterON(false)} >
+                                <div class="counter" data-target="10">
+                                    {counterON && <CountUp start={0} end={1300} duration={1} />}
+                                </div>
+
+                            </ScrollTrigger>
                             <div class="plus">
                                 <i class="fa-solid fa-plus fa-lg"></i>
                             </div>
@@ -232,7 +254,12 @@ const Home = () => {
                     <div>
                         <i class="bi bi-hospital icon"></i>
                         <div class="counter-box">
-                            <div class="counter" data-target="8">0</div>
+                            <ScrollTrigger onEnter={() => setCounterON(true)} onExit={() => setCounterON(false)}>
+                                <div class="counter" data-target="10">
+                                    {counterON && <CountUp start={0} end={8} duration={1} />}
+                                </div>
+
+                            </ScrollTrigger>
                             <div class="plus">
                                 <i class="fa-solid fa-plus fa-lg"></i>
                             </div>
@@ -342,57 +369,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
 
-            <footer id="footer">
-                <div class="u-footer">
-                    <div class="l-footer">
-                        <div class="logo">
-                            <img src={navLogo} alt="" />
-                            <h1>AUBDS</h1>
-                        </div>
-                        <p>Follow us on social media platforms.</p>
-                        <div class="social">
-                            <a href="https://www.facebook.com/AirUniBDS"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/au.bds/"><i class="fa fa-instagram"></i></a>
-                            <a href="#none"><i class="fa fa-youtube"></i></a>
-                            <a href="https://twitter.com/Aubds_"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-
-                    <ul class="r-footer">
-                        <li class="features">
-                            <h3>Quick Links</h3>
-                            <ul class="box">
-                                <li><a href="#none">Become Donor</a></li>
-                                <li><a href="#none">Request Blood</a></li>
-                                <li><a href="#none">Donate Money</a></li>
-                            </ul>
-                        </li>
-                        <li class="features">
-                            <h3>Useful Links</h3>
-                            <ul class="box">
-                                <li><a href="#none">About Us</a></li>
-                                <li><a href="#none">Become a member</a></li>
-                                <li><a href="#none">Events</a></li>
-                            </ul>
-                        </li>
-                        <li class="features">
-                            <h3>Contact</h3>
-                            <ul class="box">
-                                <li><a href="#none">Air University, Islamabad</a></li>
-                                <li><a href="#none">+92 335 9344822</a></li>
-                                <li><a href="#none">redirect@mail.com</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="b-footer">
-                    <p>
-                        All rights reserved. <br />
-                        © Air University Blood Donor Society 2022
-                    </p>
-                </div>
-            </footer>
 
 
         </>

@@ -16,7 +16,7 @@
     width: 100%;
     background-color: #fff;
     color: black;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .logo {
@@ -103,8 +103,9 @@
     border: none;
     color: white;
     height: 7vh;
-    width: 15vh;
-    border-radius: 3px;
+    width: auto;
+    padding: 0 8px;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
     font-family: "Lato", sans-serif;
@@ -121,13 +122,13 @@
     }
 
     .menu {
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .navigation-menu ul {
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 10vh;
         margin-right: 10px;
         left: 0;
         width: 100%;
@@ -140,6 +141,7 @@
     .item {
         text-align: center;
         margin: 0;
+        text-decoration: underline;
     }
 
     .navigation-menu li a {
@@ -161,6 +163,7 @@
     .navigation-menu.expanded ul {
         display: block;
     }
+    
 }
 
 @media screen and (max-width: 345px) {
